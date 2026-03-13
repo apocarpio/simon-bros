@@ -21,7 +21,7 @@ function createHUD() {
 function updateScore() {
     if (!this.scoreText) return;
 
-    this.scoreText.setText('MARIO\n' + score.toString().padStart(6, '0'));
+    this.scoreText.setText('SIMON\n' + score.toString().padStart(6, '0'));
 }
 
 function updateTimer() {
